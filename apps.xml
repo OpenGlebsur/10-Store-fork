@@ -4653,4 +4653,50 @@ Pandora is currently available in US, Australia and New Zealand only.</descripti
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+  <app id="game-reward">
+    <name>GAME Reward</name>
+    <version>11.0.6.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_img.png</icon>
+    <publisher>Game Retail Limitied</publisher>
+    <featured>false</featured>
+    <description>GAME Reward now on Windows 10 Phone, Tablet and PC. Now including Scan it, the new Augmented Reality (AR) Scanner!
+
+The GAME app now brings you: Cortana + Cool New Backgrounds + Live Home Tile + Rewards + Game Wallet + Scan it + Promos + Trade-ins + Movable Tiles &amp; lots more, all protected with a secure login.
+
+(We use Google, Facebook, Microsoft, Twitter and Steam login systems, as used by many websites. It is safe and secure and don’t worry we ONLY use this for your security and we do NOT use any contacts, or friends list or make any posts! We promise!)
+
+WHAT’S IN THE APP:
+Collect points on everything you buy in-store and online. It’s simple to join, just download the App and fill in your details, then use the App whenever you shop.
+
+- Access the App using Cortana! Speech Recognition.
+- Collect and redeem Reward points through the App.
+- Change the design of the App by selecting one of the available backgrounds in settings.
+- Scan games in store with Scan it, the new scanner, to find out all the product details, watch game trailers and find out your personalised price for the product.
+- Move the tiles around to suit your needs, make your favourite features bigger on the App home screen.
+- Complete exclusive accolades to earn bonus points, and view your progress against each one.
+- Quick links to the online store plus links to Xbox credit, PSN credit, FIFA points and the Nintendo eShop.
+- Change the font of the app.
+- Get trade-in prices for your old games with our integrated Trade-in price checker.
+- View our charts, and link straight to products on the web to buy or pre order.
+- Looking for mobile games? Check out our recommendations.
+- Add GAME Reward to your phone home screen and see the tile change.
+- Find your nearest store with the built in store locator, even follow them on twitter!
+- Keep your contact details up to date to make sure you don’t miss out on offers exclusive to Reward members as well as other great content &amp; promotions that are relevant to you.
+- Connect to the in store WiFi available through the app.
+
+ABOUT SECURED LOGINS
+We've included some additional security measures to keep your data and Wallet secure by using Facebook, Google, Microsoft, Twitter or Steam login ID.
+We don’t access any of your contacts when you login using any of these IDs, we simply use your login credentials to confirm your identity. It’s a much more secure method of logging in to websites and apps, so it is safer for you. And don’t worry, we won’t be posting anything about GAME app on your social sites!
+
+This type of login system is already used by many websites and apps – it’s safe and secure, and means you won’t need to remember a new username or password.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/GameRetailLimited.GAMERewardApp_11.0.6.0_x86__cn2pbwhpz4et2.Appx</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/gamereward_scr4.png</screenshot5>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
