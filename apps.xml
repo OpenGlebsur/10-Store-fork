@@ -4738,4 +4738,23 @@ Browse the free Jabong mobile app and enjoy the following features:
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="dropbox">
+    <name>Dropbox</name>
+    <version>5.3.0.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_img.png</icon>
+    <publisher>Dropbox Inc.</publisher>
+    <featured>false</featured>
+    <description>This app provides an optimized experience to view your Dropbox files on touch-enabled tablets. Need to sync your files between this device and others? Install the desktop application to add a Dropbox folder to this device by visiting http://www.dropbox.com/install.
+
+Dropbox lets you take your photos, docs, and videos anywhere and share them easily. Access any file you save to your Dropbox from all of your computers, phones, tablets, and on the web. With Dropbox you’ll always have your important memories and work with you. And if something happens to your Windows tablet or PC, your stuff is always safe in Dropbox.</description>
+    <package>https://github.com/msnsports-31000backup/store2/releases/download/sup/C27EB4BA.Dropbox_5.3.0.0_neutral_._xbfy0k16fey96.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/dropbox_scr5.png</screenshot5>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
