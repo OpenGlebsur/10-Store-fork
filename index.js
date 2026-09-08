@@ -164,13 +164,28 @@ function openDetailsById(appId, updateHistory) {
   }
 
   if (currentScreenshots.length > 0) {
-    currentScreenshots.forEach((shotUrl, index) => {
+    const visibleScreenshots = currentScreenshots.slice(0, 4);
+
+    visibleScreenshots.forEach((shotUrl, index) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "screenshot-item-wrapper";
+
       const img = document.createElement("img");
       img.className = "screenshot-thumb";
       img.src = shotUrl;
       img.alt = "App Screenshot";
       img.onclick = () => openLightbox(index);
-      shotsContainer.appendChild(img);
+      wrapper.appendChild(img);
+
+      if (index === 3 && currentScreenshots.length > 4) {
+        const overlay = document.createElement("div");
+        overlay.className = "screenshot-overlay-btn";
+        overlay.innerHTML = `Show all <span class="chevron">&#xE00F;</span>`;
+        overlay.onclick = () => openLightbox(0);
+        wrapper.appendChild(overlay);
+      }
+
+      shotsContainer.appendChild(wrapper);
     });
   } else {
     shotsContainer.innerHTML = `<span class="no-screenshots">No screenshots available for this app.</span>`;
