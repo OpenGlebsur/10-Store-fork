@@ -4757,4 +4757,17 @@ Dropbox lets you take your photos, docs, and videos anywhere and share them easi
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="microsoft-wifi">
+    <name>Microsoft Wi-Fi</name>
+    <version>1.1604.4.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftwifi_img.png</icon>
+    <publisher>Microsoft Corporation</publisher>
+    <featured>false</featured>
+    <description>With Microsoft WiFi, you can get online in more places on your Windows 10 PC. Buy a data plan to get connected to participating paid WiFi networks. There are no contracts or recurring charges, and all you’ll need to buy a plan is a Microsoft account.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/Microsoft.ConnectivityStore_1.1604.4.0_neutral_~_8wekyb3d8bbwe.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftwifi_scr1.png</screenshot1>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
