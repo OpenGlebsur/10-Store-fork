@@ -4699,4 +4699,43 @@ This type of login system is already used by many websites and apps – it’s s
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+  <app id="jabong.com">
+    <name>Jabong.com</name>
+    <version>3.2.0.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_img.png</icon>
+    <publisher>JADE eservices pvt. Ltd.</publisher>
+    <featured>false</featured>
+    <description>The official app of Jabong.com on Windows store.
+
+Download the free Jabong app for windows 10 and shop for shoes, clothes, dresses, watches, bags, sunglasses, jewellery etc. and avail discounts on top brands. Jabong offers free shipping, 15 day return &amp; Cash on Delivery along with exclusive app offers, deals and coupons
+
+With the free Jabong app, you can now shop anywhere and everywhere in India. Download it and let it be a one stop for all your online fashion and lifestyle shopping in India. Choose from 1200+ brands offering more than 1,30,000+ products across the following categories:
+
+• Women: Clothes (Dresses, Tops, T Shirts, Kurtis, Kurtas, Shorts, Trousers, Jeans, Skirts etc), Ethnic Wear (Kurtas, Sarees etc), Bags, Shoes, Jewellery, Watches, Sunglasses, Beauty Products etc.
+• Men: Shoes, Clothes (Shirts, Jeans, Trousers, T-Shirts etc), Ethnic Wear (Kurtas, Pyjamas etc), Winter Wear, Bags, Sunglasses, Watches, Jewellery, Fragrances etc.
+• Kids: Clothes (T shirts, tops, Jeans, Dresses, Trousers, Kurtas etc), Shoes, Watches, Bags, Jewellery etc.
+• Home Fashion: Bed Linen, Cushions, Curtains, Carpets, Bath Linen, Kitchen and Table Linen etc.
+• Sports: Shoes, Apparel and Accessories for Football, Basketball, Cricket, Tennis, Running and Training
+
+Browse the free Jabong mobile app and enjoy the following features:
+Ø 100% Trust: Secure processing of transactions, complete buyer protection and safe payment options
+Ø Online Benefits: Avail Free Shipping, Cash on Delivery and track order.
+Ø Easy Browsing: Powerful search, sort and filter options according to brands, color, age group, etc.
+Ø Complete Product Info: View detailed information and style notes with multi perspective high-resolution images of selected items
+Ø Share Your Pick: Share your favorites with friends via Facebook.
+Ø Secure Payment Options: Including Cash on Delivery, Credit/Debit Cards, Net Banking
+Ø Save For Later: Save products to view later with just one tap
+Ø Seamless Shopping Experience: Effortlessly sync saved items and cart between website, mobile and app.
+Ø Exclusive App Deals: Shop from the app and avail additional discounts, offers and exclusive coupon codes.</description>
+    <package>https://github.com/msnsports-31000backup/store2/releases/download/sup/Jabong.Jabong.com_3.2.0.0_neutral_._tggrs5j8fj87p.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr5.png</screenshot5>
+    <screenshot6>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/jabong_scr6.png</screenshot6>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
