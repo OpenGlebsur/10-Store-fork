@@ -399,6 +399,7 @@ a:hover { color: var(--accent-hover); }
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  width: 100%;
 }
 
 .screenshot-thumb {
@@ -409,6 +410,10 @@ a:hover { color: var(--accent-hover); }
   object-fit: cover;
   cursor: pointer;
   transition: transform 0.2s, border-color 0.2s;
+}
+
+.screenshots-grid.single-screenshot .screenshot-thumb {
+  width: 100%;
 }
 
 .screenshot-thumb:hover {
