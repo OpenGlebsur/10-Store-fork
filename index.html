@@ -402,9 +402,15 @@ a:hover { color: var(--accent-hover); }
   width: 100%;
 }
 
-.screenshot-thumb {
+.screenshot-item-wrapper {
+  position: relative;
   width: calc(50% - 8px);
   aspect-ratio: 16 / 9;
+}
+
+.screenshot-thumb {
+  width: 100%;
+  height: 100%;
   border-radius: 2px;
   border: 1px solid #3d3d3d;
   object-fit: cover;
@@ -412,13 +418,39 @@ a:hover { color: var(--accent-hover); }
   transition: transform 0.2s, border-color 0.2s;
 }
 
-.screenshots-grid.single-screenshot .screenshot-thumb {
+.screenshots-grid.single-screenshot .screenshot-item-wrapper {
   width: 100%;
 }
 
 .screenshot-thumb:hover {
   transform: scale(1.02);
   border-color: var(--accent);
+}
+
+.screenshot-overlay-btn {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid #3d3d3d;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+
+.screenshot-overlay-btn:hover {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.screenshot-overlay-btn .chevron {
+  font-family: "Segoe MDL2 Assets", "Segoe Fluent Icons", "Segoe UI Symbol", sans-serif;
+  font-size: 14px;
 }
 
 .no-screenshots { font-size: 14px; color: var(--text-muted); font-style: italic; }
@@ -514,22 +546,23 @@ a:hover { color: var(--accent-hover); }
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 8px;
+  gap: 6px;
   z-index: 2002;
 }
 
 .lightbox-dot {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #ffffff;
+  background: transparent;
   cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
+  box-sizing: border-box;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .lightbox-dot.active {
   background: #ffffff;
-  transform: scale(1.25);
 }
 </style>
 </head>
