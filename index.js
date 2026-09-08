@@ -157,6 +157,12 @@ function openDetailsById(appId, updateHistory) {
 
   currentScreenshots = app.screenshots || [];
 
+  if (currentScreenshots.length === 1) {
+    shotsContainer.classList.add("single-screenshot");
+  } else {
+    shotsContainer.classList.remove("single-screenshot");
+  }
+
   if (currentScreenshots.length > 0) {
     currentScreenshots.forEach((shotUrl, index) => {
       const img = document.createElement("img");
