@@ -352,11 +352,11 @@ function parseXmlData(xmlText) {
 }
 
 async function loadApps() {
-  const cdnFallbackUrl = "https://cdn.jsdelivr.net/gh/msnsports-31000/10-Store@main/apps.xml";
+  const rawGithubUrl = "https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/apps.xml";
 
   if (window.location.protocol === 'file:') {
     try {
-      const res = await fetch(cdnFallbackUrl);
+      const res = await fetch(rawGithubUrl);
       const text = await res.text();
       parseXmlData(text);
       return;
@@ -370,7 +370,7 @@ async function loadApps() {
     parseXmlData(text);
   } catch (err) {
     try {
-      const res = await fetch(cdnFallbackUrl);
+      const res = await fetch(rawGithubUrl);
       const text = await res.text();
       parseXmlData(text);
     } catch(e) {
