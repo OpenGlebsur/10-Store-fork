@@ -194,6 +194,8 @@ function openDetailsById(appId, updateHistory) {
 
   const downloadBtn = document.getElementById("DetailDownloadBtn");
   downloadBtn.href = app.package || "#";
+  downloadBtn.target = "_self";
+  downloadBtn.setAttribute("download", "");
 
   document.getElementById("AppDetailModal").style.display = "block";
 }
