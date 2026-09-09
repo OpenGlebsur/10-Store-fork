@@ -4770,4 +4770,62 @@ Dropbox lets you take your photos, docs, and videos anywhere and share them easi
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="media-player">
+    <name>Media Player</name>
+    <version>1.2.5.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_img.png</icon>
+    <publisher>Digital Cloud Technologies Global</publisher>
+    <featured>false</featured>
+    <description>Media Player is the best app to enjoy your favorite media content!
+If you are a lover of music and video, you can be sure that Media Player is the right choice for you.
+With Media Player you definitely will get only positive emotions from watching and listening to any multimedia! You get a lot of useful and exciting features like playing media files in different formats; the super search for the music on SoundCloud and videos on YouTube; adding files found to playlists; creating and editing new playlists; hotkeys when watching videos; Last.fm; Off timer and much more!
+
+Media Player supports all standard Windows codecs. If that's not enough you can easily expand significantly the list of supported codecs by purchasing additional ones that you need.
+And that is not all!
+♛ You can make Media Player functionality almost unlimited with in-App Purchase. We offer you such paid features as: equalizer, playing the content from DVD discs (But pay attention to limitations for playing license DVDs in Windows Store Apps. Due to these limitations it is possible that some discs will not play through the app.), the ability to play the most popular video formats which are not supported by Windows (FLV, MKV, VOB, QuickTime).
+
+Do not hesitate to get super features Media Player and immerse into the world of music and video!</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/9FD20106.MediaPlayerQueen_1.2.5.0_x86__nwhm06f2kfry2.Appx</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr5.png</screenshot5>
+    <screenshot6>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr6.png</screenshot6>
+    <screenshot7>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr7.png</screenshot7>
+    <screenshot8>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr8.png</screenshot8>
+    <screenshot9>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr9.png</screenshot9>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
+    <app id="media-player-for-arm">
+    <name>Media Player for ARM</name>
+    <version>1.2.5.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_img.png</icon>
+    <publisher>Digital Cloud Technologies Global</publisher>
+    <featured>false</featured>
+    <description>Media Player is the best app to enjoy your favorite media content!
+If you are a lover of music and video, you can be sure that Media Player is the right choice for you.
+With Media Player you definitely will get only positive emotions from watching and listening to any multimedia! You get a lot of useful and exciting features like playing media files in different formats; the super search for the music on SoundCloud and videos on YouTube; adding files found to playlists; creating and editing new playlists; hotkeys when watching videos; Last.fm; Off timer and much more!
+
+Media Player supports all standard Windows codecs. If that's not enough you can easily expand significantly the list of supported codecs by purchasing additional ones that you need.
+And that is not all!
+♛ You can make Media Player functionality almost unlimited with in-App Purchase. We offer you such paid features as: equalizer, playing the content from DVD discs (But pay attention to limitations for playing license DVDs in Windows Store Apps. Due to these limitations it is possible that some discs will not play through the app.), the ability to play the most popular video formats which are not supported by Windows (FLV, MKV, VOB, QuickTime).
+
+Do not hesitate to get super features Media Player and immerse into the world of music and video!</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/9FD20106.MediaPlayerQueen_1.2.5.0_arm__nwhm06f2kfry2.Appx</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr5.png</screenshot5>
+    <screenshot6>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr6.png</screenshot6>
+    <screenshot7>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr7.png</screenshot7>
+    <screenshot8>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr8.png</screenshot8>
+    <screenshot9>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/mediaplayer_scr9.png</screenshot9>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
