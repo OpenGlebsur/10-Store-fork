@@ -236,13 +236,8 @@ function updateLightbox() {
   imgEl.src = currentScreenshots[currentScreenshotIndex];
   dotsContainer.innerHTML = "";
 
-  if (currentScreenshots.length <= 1) {
-    if (prevBtn) prevBtn.style.display = "none";
-    if (nextBtn) nextBtn.style.display = "none";
-  } else {
-    if (prevBtn) prevBtn.style.display = "flex";
-    if (nextBtn) nextBtn.style.display = "flex";
-  }
+  if (prevBtn) prevBtn.style.display = "flex";
+  if (nextBtn) nextBtn.style.display = "flex";
 
   if (dotsContainer) {
     dotsContainer.style.display = "flex";
