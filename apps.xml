@@ -4828,4 +4828,18 @@ Do not hesitate to get super features Media Player and immerse into the world of
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="microsoft-people">
+    <name>Microsoft People</name>
+    <version>2016.1011.2336.2000</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftpeople_img.png</icon>
+    <publisher>Microsoft Corporation</publisher>
+    <featured>false</featured>
+    <description>People in Windows 10 puts all the ways you connect with all your friends, family, colleagues, and acquaintances in one place, so it’s faster than ever to keep in touch. Check out what your people are up to across the services they use and choose how you want to connect with them.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/Microsoft.People_2016.1011.2336.2000_neutral_~_8wekyb3d8bbwe.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftpeople_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftpeople_scr2.png</screenshot2>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
