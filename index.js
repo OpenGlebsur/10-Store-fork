@@ -96,14 +96,15 @@ function renderHorizontalGrid(apps) {
 function renderDescriptionText() {
   const descContainer = document.getElementById("DetailDesc");
   const toggleBtn = document.getElementById("DetailDescToggleBtn");
+  const maxChars = 574;
 
-  if (fullDescriptionText.length > 333) {
+  if (fullDescriptionText.length > maxChars) {
     toggleBtn.style.display = "inline-block";
     if (isDescExpanded) {
       descContainer.textContent = fullDescriptionText;
       toggleBtn.textContent = "Less";
     } else {
-      descContainer.textContent = fullDescriptionText.slice(0, 333) + "...";
+      descContainer.textContent = fullDescriptionText.slice(0, maxChars);
       toggleBtn.textContent = "More";
     }
   } else {
@@ -351,11 +352,11 @@ function parseXmlData(xmlText) {
 }
 
 async function loadApps() {
-  const rawGithubUrl = "https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/apps.xml";
+  const cdnFallbackUrl = "https://cdn.jsdelivr.net/gh/msnsports-31000/10-Store@main/apps.xml";
 
   if (window.location.protocol === 'file:') {
     try {
-      const res = await fetch(rawGithubUrl);
+      const res = await fetch(cdnFallbackUrl);
       const text = await res.text();
       parseXmlData(text);
       return;
@@ -369,7 +370,7 @@ async function loadApps() {
     parseXmlData(text);
   } catch (err) {
     try {
-      const res = await fetch(rawGithubUrl);
+      const res = await fetch(cdnFallbackUrl);
       const text = await res.text();
       parseXmlData(text);
     } catch(e) {
