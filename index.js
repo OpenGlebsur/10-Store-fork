@@ -227,22 +227,36 @@ function navigateLightbox(direction, event) {
 }
 
 function updateLightbox() {
+  const modal = document.getElementById("ScreenshotLightbox");
   const imgEl = document.getElementById("LightboxImage");
+  const prevBtn = modal.querySelector(".lightbox-nav.prev");
+  const nextBtn = modal.querySelector(".lightbox-nav.next");
   const dotsContainer = document.getElementById("LightboxDots");
 
   imgEl.src = currentScreenshots[currentScreenshotIndex];
   dotsContainer.innerHTML = "";
 
-  currentScreenshots.forEach((_, idx) => {
-    const dot = document.createElement("div");
-    dot.className = `lightbox-dot ${idx === currentScreenshotIndex ? 'active' : ''}`;
-    dot.onclick = (e) => {
-      e.stopPropagation();
-      currentScreenshotIndex = idx;
-      updateLightbox();
-    };
-    dotsContainer.appendChild(dot);
-  });
+  if (currentScreenshots.length <= 1) {
+    if (prevBtn) prevBtn.style.display = "none";
+    if (nextBtn) nextBtn.style.display = "none";
+  } else {
+    if (prevBtn) prevBtn.style.display = "flex";
+    if (nextBtn) nextBtn.style.display = "flex";
+  }
+
+  if (dotsContainer) {
+    dotsContainer.style.display = "flex";
+    currentScreenshots.forEach((_, idx) => {
+      const dot = document.createElement("div");
+      dot.className = `lightbox-dot ${idx === currentScreenshotIndex ? 'active' : ''}`;
+      dot.onclick = (e) => {
+        e.stopPropagation();
+        currentScreenshotIndex = idx;
+        updateLightbox();
+      };
+      dotsContainer.appendChild(dot);
+    });
+  }
 }
 
 document.addEventListener("keydown", (e) => {
