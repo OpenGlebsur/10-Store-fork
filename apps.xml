@@ -4879,4 +4879,22 @@ The paid version unlocks the ability to add more than five grades per class, use
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="easy-player">
+    <name>Easy Player</name>
+    <version>2.2.14.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/easyplayer_img.png</icon>
+    <publisher>joal</publisher>
+    <featured>false</featured>
+    <description>Easy Player is a powerful media player, ported to the Windows Universal Platform.
+Supports all video and audio formats, such as mp4, mkv, flv, mov, avi, mpg, rmvb, vob, webm, 3gb, etc.
+It's free and easy to use, hope you like it.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/34697joal.EasyPlayer_2.2.14.0_neutral_~_7xtp3aa6dt786.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/easyplayer_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/easyplayer_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/easyplayer_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/easyplayer_scr4.png</screenshot4>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
