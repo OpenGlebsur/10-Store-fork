@@ -4947,4 +4947,28 @@ Supported file types:
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="microsoft-math">
+    <name>Microsoft Math</name>
+    <version>10.0.2.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftmath_img.png</icon>
+    <publisher>Microsoft Corporation</publisher>
+    <featured>false</featured>
+    <description>Learn and practice essential mathematics. Earn badges and increase rankings. Collaborate with others online or offline.
+
+Microsoft Math makes the learning experience personal, engaging and exciting. Students can practice math exercises, learn concepts, view examples, take quizzes and tests, and collaborate with other learners--whether online or offline.
+
+By setting up a basic profile, Microsoft Math offers a social experience while learning. Studying independently or collaborating in groups, students are motivated to complete assignments to earn badges, leveled skill advancement and
+rise in group rankings.
+
+Teachers can use Microsoft Math to motivate, monitor, and track learning and skill levels, allowing more specific and individualized feedback to students.
+
+Microsoft Math is a great tool for enriching the learning experience, even engaging students after school hours and outside of classrooms.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/Microsoft.MicrosoftMath_10.0.2.0_neutral_~_8wekyb3d8bbwe.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftmath_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftmath_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/microsoftmath_scr3.png</screenshot3>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
