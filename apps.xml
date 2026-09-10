@@ -4842,4 +4842,41 @@ Do not hesitate to get super features Media Player and immerse into the world of
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="power-planner">
+    <name>Power Planner</name>
+    <version>2006.17.1.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_img.png</icon>
+    <publisher>BareBones Dev</publisher>
+    <featured>false</featured>
+    <description>Power Planner is the ultimate homework planner for students, featuring grade calculation, online sync, live tiles, automatic reminders, and more.
+
+And now, Power Planner has been re-written for Windows 10!
+
+The free version has limitations like only 1 semester, only 5 grades per class, etc.
+
+With Power Planner's online account, you can stay on top of homework assignments from your desktop, Android, web browser, and Windows Phone!
+
+Power Planner lets you manage semesters, enter classes with time schedules and room locations, add assignments and exams, receive automatic reminders about upcoming homework, and more.
+
+Windows Phone users will appreciate the excellent use of live tiles, which allow you to see your upcoming homework. You can also pin a schedule tile that tells you when and where your next class is. And you can pin each class as secondary tiles. Plus, you can set each of those as your detailed lock screen status.
+
+Grade and GPA calculation is also fully supported, allowing you to know exactly what your GPA is across multiple semesters. You can also use "What If?" mode to find out what you need in order to keep an A in a class!
+
+See your classes and homework from Outlook Calendar thanks to calendar integration!
+
+The paid version unlocks the ability to add more than five grades per class, use multiple semesters/years, and more. It is purchased through an in-app purchase, and when you buy Power Planner once, you unlock it everywhere. However, the free version is still perfectly functional.</description>
+    <package>https://github.com/msnsports-31000backup/store2/releases/download/sup/61442BareBonesDev.PowerPlanner_2006.17.1.0_neutral_._5ga7fac6nanaa.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr5.png</screenshot5>
+    <screenshot6>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr6.png</screenshot6>
+    <screenshot7>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr7.png</screenshot7>
+    <screenshot8>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr8.png</screenshot8>
+    <screenshot9>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/powerplanner_scr9.png</screenshot9>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
