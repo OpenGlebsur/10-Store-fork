@@ -4990,4 +4990,40 @@ Microsoft Math is a great tool for enriching the learning experience, even engag
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="perfect-dictionary">
+    <name>Perfect Dictionary</name>
+    <version>2.0.24.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_img.png</icon>
+    <publisher>Perfect Thumb</publisher>
+    <featured>false</featured>
+    <description>The most comprehensive offline dictionary on Windows Phone!
+Search multiple dictionaries from huge database in over 50 languages.
+FEATURES:
+✓ Automatic word suggestions from enable dictionaries while typing.
+✓ Ability to see history of searched words and clear history any time.
+✓ Ability to mark words as Favorite and pin them to startscreen.
+✓ Play audio pronunciations of words.
+
+-------- Note for developers -------
+if you want to call Perfect Dictionary from right in your app, use bellow Protocols:
+perfectdictionary
+dict
+define
+
+Sample for translate the word "hell"
+Launcher.LaunchUriAsync(new Uri("define:text=" + HttpUtility.UrlEncode("hell")));
+
+
+Available dictionary's languages:
+English , Arabic , العربية , Chinese (Simplified, China) , 中文(中华人民共和国) , Chinese (Traditional, Taiwan) , 中文(台灣) , Dutch , Nederlands , French , français , German , Deutsch , Greek , Ελληνικά , Italian , italiano , Japanese , 日本語 , Korean , 한국어 , Portuguese , português , Russian , русский , Spanish , español , Swedish , svenska , Turkish , Türkçe , Indonesian , Bahasa Indonesia , Vietnamese , Tiếng Việt , Belarusian , Беларуская , Polish , polski , Ukrainian , українська , Czech , čeština , Estonian , eesti , Bulgarian , български , Croatian , hrvatski , Finnish , suomi , Hungarian , magyar , Latvian , latviešu , Lithuanian , lietuvių , Malay , Bahasa Melayu , Thai , ไทย , Afrikaans , Afrikaans , Danish , dansk , Serbian , srpski , Norwegian , norsk , Kiswahili , Kiswahili , Albanian , Shqip , Basque , euskara , Catalan , Català , Hindi , हिंदी , Icelandic , íslenska , Irish , Gaeilge , Central Kurdish , کوردیی ناوەڕاست , Occitan , Occitan , Persian , فارسى , Romanian , română , Slovenian , slovenščina , Guarani , Guarani , Sami (Northern) , davvisámegiella , Uyghur , ئۇيغۇرچە .</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/10301PerfectThumb.PerfectDictionary_2.0.24.0_neutral_~_n9t97vrmwej7m.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/perfectdictionary_scr5.png</screenshot5>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
