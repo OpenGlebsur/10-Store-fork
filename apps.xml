@@ -4897,4 +4897,54 @@ It's free and easy to use, hope you like it.</description>
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="ultranote">
+    <name>UltraNote</name>
+    <version>2.3.7.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_img.png</icon>
+    <publisher>xFreZz</publisher>
+    <featured>false</featured>
+    <description>UltraNote - this is a great app to view any files* and editing a plurality of text file types.
+
+Features:-
+- Support for opening files from Windows Explorer, email attachments, etc;
+- View the hex-code;
+- Recent files;
+- Drag'n'Drop;
+- CodeViewer(beta)
+  + *.cs;
+  + *.html;
+  + *.xaml;
+  + *.xml;
+
+Supported file types:
+*.txt,
+*.log,
+*.dat,
+*.html,
+*.css,
+*.cs,
+*.xml,
+*.appxmanifest,
+*.config,
+*.json,
+*.cpp,
+*.js,
+*.resw,
+*.php,
+*.sql,
+*.png,
+*.cfg,
+*.xap,
+*.htm,
+*.c.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/45937xFreZz.UltraNote_2.3.7.0_neutral_~_pjwxdtm6gj740.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/ultranote_scr5.png</screenshot5>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
