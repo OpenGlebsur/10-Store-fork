@@ -5243,4 +5243,36 @@ PDF Viewer Plus is a simple UWP PDF reader. Easily open and view a PDF file from
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="short.y">
+    <name>Short.y</name>
+    <version>2.4.1.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_img.png</icon>
+    <publisher>RafaelWare Team</publisher>
+    <featured>false</featured>
+    <description>Short.y is a URL Shotener that uses services provided by is.gd and others to process and shorten your URIs.
+
+Short.y is fast and easy to use. You can shorten a URI by copying it into the app and short.y will give you the short version of it and a QRCode. You can then copy the short URI or share it.
+
+Short.y lets you also shorten a link from within the Action Center and get the results immediately.
+
+Short.y also acts as a share target which means that you can share URIs from other apps such as Microsoft Edge and short.y will immediately copy the short version to the clipboard.
+Short.y is also smart, it can automatically extract URI links from text shared to it and lets you shorten the selected link.
+
+With Short.y, you can find out where does a short link point to so you know if the website is safe or not. Short.y takes this bullet for you without affecting your device's security.
+
+Short.y maintains a list of the recent links processsed by it for your convenience.
+
+If you like the app then please review and share it with your friends. You can additionally donate to help me keep developing the app.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/4036RafaelWareTeam.Short.y_2.4.1.0_neutral_~_6qcnex249k2x0.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr1.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr2.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr3.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr4.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr5.png</screenshot5>
+    <screenshot6>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr6.png</screenshot6>
+    <screenshot7>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr7.png</screenshot7>
+    <screenshot8>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/short.y_scr8.png</screenshot8>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
