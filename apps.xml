@@ -5275,4 +5275,16 @@ If you like the app then please review and share it with your friends. You can a
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
+    <app id="windows-10-cheat-keys">
+    <name>Windows 10 Cheat Keys</name>
+    <version>1.4.1.0</version>
+    <icon>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/windows10cheatkeys_img.png</icon>
+    <publisher>Digitalmason.net</publisher>
+    <featured>false</featured>
+    <description>Windows 10 Cheat Keys has keys and tips that make getting around in Windows 10 easier. Find shortcuts for the familiar features as well as many, many new and handy ones.</description>
+    <package>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/31710Digitalmason.net.Windows10CheatKeys_1.4.1.0_neutral_~_qxs9v8xwp3xem.AppxBundle</package>
+    <screenshot1>https://raw.githubusercontent.com/msnsports-31000/10-Store/refs/heads/main/files2/windows10cheatkeys_scr1.png</screenshot1>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
 </data>
